@@ -54,35 +54,6 @@ extension AccountController : UICollectionViewDelegate, UICollectionViewDataSour
             return account
         }
         
-//        else if indexPath.row == 1{
-//            gradient.frame = account.bounds
-//            gradient.colors = [UIColor.orange.cgColor, UIColor.white.cgColor]
-//            gradient.startPoint = CGPoint.zero
-//            gradient.endPoint = CGPoint(x: 1, y: 1)
-//            account.avtarImageview.layer.insertSublayer(gradient, at: 0)
-//        }
-//        else if indexPath.row == 2{
-//            gradient.frame = account.bounds
-//            gradient.colors = [UIColor.blue.cgColor, UIColor.white.cgColor]
-//            gradient.startPoint = CGPoint.zero
-//            gradient.endPoint = CGPoint(x: 1, y: 1)
-//            account.avtarImageview.layer.insertSublayer(gradient, at: 0)
-//        }
-//        else if indexPath.row == 3{
-//            gradient.frame = account.bounds
-//            gradient.colors = [UIColor.cyan.cgColor, UIColor.white.cgColor]
-//            gradient.startPoint = CGPoint.zero
-//            gradient.endPoint = CGPoint(x: 1, y: 1)
-//            account.avtarImageview.layer.insertSublayer(gradient, at: 0)
-//        }
-//        else if indexPath.row == 4{
-//            gradient.frame = account.bounds
-//            gradient.colors = [UIColor.yellow.cgColor, UIColor.white.cgColor]
-//            gradient.startPoint = CGPoint.zero
-//            gradient.endPoint = CGPoint(x: 1, y: 1)
-//            account.avtarImageview.layer.insertSublayer(gradient, at: 0)
-//        }
-        
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize
