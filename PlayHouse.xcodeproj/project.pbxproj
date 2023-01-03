@@ -17,6 +17,8 @@
 		D276674B295ACF3800D4276D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D276674A295ACF3800D4276D /* Assets.xcassets */; };
 		D276674E295ACF3800D4276D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D276674C295ACF3800D4276D /* LaunchScreen.storyboard */; };
 		D2766756295ADBED00D4276D /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2766755295ADBED00D4276D /* AccountCell.swift */; };
+		D2C000E12964439F00070BE9 /* ContentDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C000E02964439F00070BE9 /* ContentDetailsController.swift */; };
+		D2C000E32964442A00070BE9 /* FirstCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C000E22964442A00070BE9 /* FirstCollection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		D276674D295ACF3800D4276D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D276674F295ACF3800D4276D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2766755295ADBED00D4276D /* AccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCell.swift; sourceTree = "<group>"; };
+		D2C000E02964439F00070BE9 /* ContentDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailsController.swift; sourceTree = "<group>"; };
+		D2C000E22964442A00070BE9 /* FirstCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCollection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +71,12 @@
 				D2766741295ACF3700D4276D /* AppDelegate.swift */,
 				D2766743295ACF3700D4276D /* SceneDelegate.swift */,
 				D2766745295ACF3700D4276D /* AccountController.swift */,
+				D2C000E02964439F00070BE9 /* ContentDetailsController.swift */,
 				3D80A4AE2962F7A50061D36F /* MoviePosterTableViewCell.swift */,
 				3D80A4AA2962F4560061D36F /* TabBarViewController.swift */,
 				3D80A4AC2962F4D90061D36F /* HomeScreen.swift */,
 				D2766755295ADBED00D4276D /* AccountCell.swift */,
+				D2C000E22964442A00070BE9 /* FirstCollection.swift */,
 				D2766747295ACF3700D4276D /* Main.storyboard */,
 				D276674A295ACF3800D4276D /* Assets.xcassets */,
 				D276674C295ACF3800D4276D /* LaunchScreen.storyboard */,
@@ -155,7 +161,9 @@
 				3D80A4AD2962F4D90061D36F /* HomeScreen.swift in Sources */,
 				D2766742295ACF3700D4276D /* AppDelegate.swift in Sources */,
 				3D80A4AF2962F7A50061D36F /* MoviePosterTableViewCell.swift in Sources */,
+				D2C000E32964442A00070BE9 /* FirstCollection.swift in Sources */,
 				3D80A4AB2962F4560061D36F /* TabBarViewController.swift in Sources */,
+				D2C000E12964439F00070BE9 /* ContentDetailsController.swift in Sources */,
 				D2766744295ACF3700D4276D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
